@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        h1{
+            text-align: center;
+            align-self: center;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        thead{
+            font-weight: bolder;
+            text-align: center;
+            vertical-align: middle;
+        }
+        tbody{
+            background-color: rgba(245, 242, 242, 0.789);
+            text-align: left;
+            vertical-align: middle;
+        }
+        tfoot{
+            background-color: lightgray;
+            text-align: center;
+        }
+        th{
+            background-color: lightgray;
+            padding: 15px;
+            border: 1px solid black;
+        }
+        td{
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td> 45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gereais</td>
+                <td>21 168 791</td> 
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td>17 264 943</td> 
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td><strong>jabuticaba</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
